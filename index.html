@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Website</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Georama:wght@100;400&display=swap');
+
+    .column img {
+        display: block;
+        height: 200px;
+        width: 200px;
+        margin-left: 400px;
+        border-radius: 10px;
+    }
+
+    .column-r img {
+        display: block;
+        height: 200px;
+        width: 200px;
+        margin-right: 400px;
+        border-radius: 10px;
+    }
+
+    .column h1 {
+        font-family: 'Georama', sans-serif;
+        font-size: 40px;
+        margin-left: 250px;
+    }
+
+    .column p {
+        font-family: 'Georama', sans-serif;
+        font-size: 20px;
+        margin-left: 250px;
+        opacity: 0.7;
+    }
+
+    .column {
+        float: left;
+        padding: 5px;
+    }
+
+    .column-r h1 {
+        font-family: 'Georama', sans-serif;
+        font-size: 40px;
+        margin-right: 250px;
+    }
+
+    .column-r p {
+        font-family: 'Georama', sans-serif;
+        font-size: 20px;
+        margin-right: 250px;
+        opacity: 0.7;
+    }
+
+    .column-r {
+        float: right;
+        padding: 5px;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+</style>
+
+<body class="body">
+    <div class="row" style="background-color: aquamarine;">
+        <div class="column">
+            <img src="https://cdn.discordapp.com/attachments/564520348821749766/872905159838171166/161-1614760_transparent-personality-anime-male-black-hair-anime-characters.png"
+                alt="Logo">
+        </div>
+        <div class="column">
+            <h1>Anime Universe India</h1>
+            <p>An Indian server purely decdicated to Anime which allows you to interact with weebs around the globe.
+            </p>
+        </div>
+    </div>
+
+    <div class="row" style="background-color:  pink">
+        <div class="column-r">
+            <img src="https://cdn.discordapp.com/attachments/564520348821749766/872905663347572787/d6on3h1-64d5b9bf-f746-4b4f-8ba6-5dc454ce8839.png"
+                alt="Logo">
+        </div>
+        <div class="column-r">
+            <h1>Friendly Staff</h1>
+            <p>Friendly staff so you can interact with them easily and enjoy in the server.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
